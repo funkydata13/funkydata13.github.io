@@ -38,7 +38,7 @@ Bref, ce n'est pas un petit morceau et il y aura pas mal de mécaniques sympas a
 ---
 
 ### 3. Funky Tetris v1.02
-`#Dev` `#Release`
+`#Dev` `#Release` `#Gaming`
 
 Le **["FUNKY TETRIS"](https://github.com/funkydata13/Qwen3Tetris-)** est officiellement passé en version 1.02 ! 
 **[Il est jouable ici](https://funkydata13.github.io/Qwen3Tetris-/index.html)** ou récupérable sur le dépot pour les plus aventureux.
