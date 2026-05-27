@@ -1,6 +1,6 @@
-# Journal de bord de funkydata13
+# Journal de bord de funkydata
 
-Bienvenue sur mon fil d'actualités passif où je documente mes projets (Dev, Son, Graphisme).
+Bienvenue sur mon fil d'actualités où je documente mes projets (Dev, Son, Graphisme).
 
 ---
 
