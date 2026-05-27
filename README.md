@@ -4,7 +4,7 @@ Bienvenue sur mon fil d'actualités où je documente mes projets (Dev, Son, Grap
 
 ---
 
-## [28/05/2026] - Projets en cours & Mises à jour
+## [27/05/2026] - Projets en cours & Mises à jour
 
 ### 1. Test de LLM locaux
 `#Dev` `#AI`
@@ -28,6 +28,7 @@ Je bosse sur un remake du célèbre jeu d'arcade. J'utilise Gemma 4 pour m'épau
 `#Dev` `#Release`
 
 Le **["FUNKY TETRIS"](https://github.com/funkydata13/Qwen3Tetris-)** est officiellement passé en version 1.02 ! 
+**[Il est jouable ici](https://funkydata13.github.io/Qwen3Tetris-/index.html)** ou récupérable sur le dépot pour les plus aventureux.
 
 *   Le système de scoring est fonctionnel.
 *   Les sources restent ouvertes à tous.
