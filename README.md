@@ -1,4 +1,4 @@
-# Journal de bord de funkydata
+#Journal de bord de funkydata
 
 Bienvenue sur mon fil d'actualités où je documente mes projets (Dev, Son, Graphisme).
 
@@ -20,6 +20,19 @@ Bienvenue sur mon fil d'actualités où je documente mes projets (Dev, Son, Grap
 
 Je bosse sur un remake du célèbre jeu d'arcade. J'utilise Gemma 4 pour m'épauler dessus. Malheureusement, le projet est beaucoup trop complexe pour une génération totale : j'ai dû me résoudre à redonner à l'IA un "simple" rôle d'assistant.
 
+<img width="960" height="540" alt="funky_arkanoid" src="https://github.com/user-attachments/assets/1e9ef5be-82ca-4380-9686-8913fd5c23b1" />
+
+Il sera assez évolué : 
+
+*   **Contenu fidèle & nouveautés :** Toutes les raquettes et tous les bonus des versions d'arcade seront présents, accompagnés de quelques nouveautés.
+*   **Mécaniques exotiques au programme :**
+    *   Briques "Mine"
+    *   Portails de téléportation
+    *   ... et d'autres surprises !
+*   **Gestion des niveaux :** Système de chargement et de création de niveaux via des images BITMAP.
+
+Bref, ce n'est pas un petit morceau et il y aura pas mal de mécaniques sympas au rendez-vous.
+
 *   **Statut :** Déploiement d'une pré-version bientôt disponible.
 
 ---
@@ -30,7 +43,8 @@ Je bosse sur un remake du célèbre jeu d'arcade. J'utilise Gemma 4 pour m'épau
 Le **["FUNKY TETRIS"](https://github.com/funkydata13/Qwen3Tetris-)** est officiellement passé en version 1.02 ! 
 **[Il est jouable ici](https://funkydata13.github.io/Qwen3Tetris-/index.html)** ou récupérable sur le dépot pour les plus aventureux.
 
-*   Le système de scoring est fonctionnel.
-*   Les sources restent ouvertes à tous.
-*   *À venir :* Une passe d'embellissement sera de rigueur dès que j'aurai un créneau.
-*   Appuyez sur Alt+M en jeu pour la surprise 😉
+<img width="642" height="361" alt="funky_tetris" src="https://github.com/user-attachments/assets/7a415344-1747-4789-8f72-1167fe93c81a" />
+
+*   Le système de scoring est ouvert -comme les sources 😂-.
+*   Appuyez sur Alt+M en jeu pour la surprise 😉 -désolé-
+*   *À venir :* Une passe d'embellissement de rigueur dès que j'aurai un créneau.
