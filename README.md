@@ -1,6 +1,5 @@
-#Journal de bord de funkydata
-
-Bienvenue sur mon fil d'actualités où je documente mes projets (Dev, Son, Graphisme).
+# LE WORKBLOG DE FUNKYDATA
+Bienvenue sur ce workblog !
 
 ---
 
