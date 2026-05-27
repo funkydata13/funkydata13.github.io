@@ -1,16 +1,34 @@
-## Hi there 👋
+# Journal de bord de funkydata13
 
-<!--
-**funkydata13/funkydata13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bienvenue sur mon fil d'actualités passif où je documente mes projets (Dev, Son, Graphisme).
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## [28/05/2026] - Projets en cours & Mises à jour
+
+### 1. Test de LLM locaux
+`#Dev` `#AI`
+
+*   **Gemma 4 (28B A4B) :** En plein test actuellement.
+*   **Qwen 3 Coder (30B A3B) :** Comparaison à venir très prochainement.
+*   *Verdict temporaire :* Pour le moment, c'est très serré ! 🙂
+
+---
+
+### 2. Remake d'Arkanoid (Version revisitée)
+`#Dev` `#Gaming`
+
+Je bosse sur un remake du célèbre jeu d'arcade. J'utilise Gemma 4 pour m'épauler dessus. Malheureusement, le projet est beaucoup trop complexe pour une génération totale : j'ai dû me résoudre à redonner à l'IA un "simple" rôle d'assistant.
+
+*   **Statut :** Déploiement d'une pré-version bientôt disponible.
+
+---
+
+### 3. Funky Tetris v1.02
+`#Dev` `#Release`
+
+Le **["FUNKY TETRIS"](https://github.com/funkydata13/Qwen3Tetris-)** est officiellement passé en version 1.02 ! 
+
+*   Le système de scoring est fonctionnel.
+*   Les sources restent ouvertes à tous.
+*   *À venir :* Une passe d'embellissement sera de rigueur dès que j'aurai un créneau.
