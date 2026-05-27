@@ -32,3 +32,4 @@ Le **["FUNKY TETRIS"](https://github.com/funkydata13/Qwen3Tetris-)** est officie
 *   Le système de scoring est fonctionnel.
 *   Les sources restent ouvertes à tous.
 *   *À venir :* Une passe d'embellissement sera de rigueur dès que j'aurai un créneau.
+*   Appuyez sur Alt+M en jeu pour la surprise 😉
