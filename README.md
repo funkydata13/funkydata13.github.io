@@ -5,8 +5,7 @@ Bienvenue sur ce workblog !
 <p align="left">
    🌐 <b>Navigation rapide :</b> 
    <a href="https://github.com/funkydata13">GitHub</a> |
-   <a href="https://funkydata13.github.io/Qwen3Tetris-/index.html">FUNKY TETRIS - PROJET</a> | 
-   <a href="https://funkydata13.github.io/Qwen3Tetris-/index.html">FUNKY TETRIS - VERSION JOUABLE</a>
+   <a href="#3-funky-tetris-v102">FUNKY TETRIS</a>
 </p>
 
 ---
