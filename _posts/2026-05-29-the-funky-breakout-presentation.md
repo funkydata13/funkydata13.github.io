@@ -1,8 +1,10 @@
 ---
-title: "The Funky Breakout - Présentation"
+title: "🎮 The Funky Breakout - Présentation"
 date: 2026-05-29 16:00:00 +0200
 categories: [Dev, Gaming]
 tags: [dev, gaming]
+image:
+  path: /assets/img/covers/funky_breakout.png
 ---
 
 ## The Funky Breakout - Présentation 1

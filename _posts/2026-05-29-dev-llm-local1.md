@@ -1,8 +1,10 @@
 ---
-title: "LLM Locaux : Gemma 4 vs Qwen3Coder"
+title: "🤖 LLM Locaux : Gemma 4 vs Qwen3Coder"
 date: 2026-05-29 19:00:00 +0200
 categories: [Dev, AI, Tests]
 tags: [dev, ai, tests]
+image:
+  path: /assets/img/covers/llm_qwen_gemma.png
 ---
 
 ## LLM Locaux - Gemma 4 26B vs Qwen 3 Coder 30B - Retour d'expérience
