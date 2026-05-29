@@ -45,29 +45,39 @@ Chaque type de brique possède ses propres caractéristiques mécaniques et math
 
 #### Tiers Basique (Remplissage & Couleurs Froides)
 *   ⚪ **Blanche :** Le bloc de base par excellence. 
-    *   `1 HP` | `30 Pts` | Multiplicateur de drop : `0.8` (malus) | `+1 DL`
+    *   `1 HP` `30 Pts` `+1 DL`
+    *   Multiplicateur de drop : `0.8` (malus)
 *   🟢 **Verte :** Un bloc standard léger. 
-    *   `1 HP` | `50 Pts` | Multiplicateur de drop : `0.9` | `+1 DL`
+    *   `1 HP` `50 Pts` `+1 DL`
+    *   Multiplicateur de drop : `0.9`
 *   🔵 **Cyan :** Le point d'ancrage neutre du jeu. 
-    *   `1 HP` | `70 Pts` | Multiplicateur de drop : `1.0` (neutre) | `+1 DL`
+    *   `1 HP` `70 Pts` `+1 DL`
+    *   Multiplicateur de drop : `1.0` (neutre)
 *   🔷 **Bleue :** Le haut du panier des briques froides. 
-    *   `1 HP` | `90 Pts` | Multiplicateur de drop : `1.1` (avantageux) | `+1 DL`
+    *   `1 HP` `90 Pts` `+1 DL`
+    *   Multiplicateur de drop : `1.1` (avantageux)
 
 #### Tiers Intermédiaire (Transition & Couleurs Chaudes)
 *   🟣 **Violette :** L'entrée dans le second tiers. 
-    *   `1 HP` | `110 Pts` | Multiplicateur de drop : `1.3` | `+2 DL`
+    *   `1 HP` `110 Pts` `+2 DL`
+    *   Multiplicateur de drop : `1.3` 
 *   💗 **Rose :** Un bloc intermédiaire supérieur. 
-    *   `1 HP` | `130 Pts` | Multiplicateur de drop : `1.4` | `+2 DL`
+    *   `1 HP` `130 Pts` `+2 DL`
+    *   Multiplicateur de drop : `1.4` 
 *   🔴 **Rouge :** Le sommet des briques standards à un seul point de vie. 
-    *   `1 HP` | `150 Pts` | Multiplicateur de drop : `1.5` | `+2 DL`
+    *   `1 HP` `150 Pts` `+2 DL`
+    *   Multiplicateur de drop : `1.5`
 
 #### Tiers "Heavy" & Spéciaux (Sacs à PV & Objectifs)
 *   🟡 **Jaune :** Un bloc à haute valeur de score. 
-    *   `2 HP` | `300 Pts` | Multiplicateur de drop : `2.0` (double les chances) | `+3 DL`
+    *   `2 HP` `300 Pts` `+3 DL`
+    *   Multiplicateur de drop : `2.0` (double les chances)
 *   🟠 **Orange :** Le premier vrai rempart du niveau. Demande 3 coups de bille ou un laser. 
-    *   `3 HP` | `400 Pts` | Multiplicateur de drop : `2.5` | `+4 DL`
+    *   `3 HP` `400 Pts` `+4 DL`
+    *    Multiplicateur de drop : `2.5`
 *   👑 **Dorée :** Le "Mini-Boss" statique de la grille. Un monstre de résistance qui demande 10 coups de bille ou le Laser . 
-    *   `10 HP` | `800 Pts` | Multiplicateur de drop : `3.0` (max) | `+10 DL` (pic massif)
+    *   `10 HP` `800 Pts` `+10 DL` (pic massif)
+    *   Multiplicateur de drop : `3.0` (max) 
 *   ⛔ **Grise (INDESTRUCTIBLE) :** Obstacle structurel et élément d'architecture. Elle n'offre aucun point et stoppe les balles. *Seule exception :* elle est sensible aux tirs lasers et peut être pulvérisée avec quelques coups bien placés si le joueur possède le bonus adéquat.
 
 ---
