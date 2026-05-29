@@ -4,7 +4,7 @@ date: 2026-05-29 16:00:00 +0200
 categories: [Dev, Gaming]
 tags: [dev, gaming]
 image:
-  path: /assets/img/covers/funky_breakout.png
+  path: /assets/img/covers/banner_rgd.png
 ---
 
 ## The Funky Breakout - Présentation 1

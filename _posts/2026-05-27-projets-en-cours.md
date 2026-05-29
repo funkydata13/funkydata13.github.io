@@ -3,6 +3,8 @@ title: "Projets en cours"
 date: 2026-05-27 17:00:00 +0200
 categories: [Dev, AI, News]
 tags: [dev, ai, news]
+image:
+  path: /assets/img/covers/banner_news.png
 ---
 
 ## Projets en cours & Mises à jour [27/05/2026]

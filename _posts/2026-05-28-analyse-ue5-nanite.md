@@ -3,6 +3,8 @@ title: "Unreal Engine 5 : Tout savoir sur Nanite"
 date: 2026-05-27 20:00:00 +0200
 categories: [3D, UE5, Article]
 tags: [3d, ue5, article]
+image:
+  path: /assets/img/covers/banner_tech.png
 ---
 
 ## UNREAL ENGINE 5 : Nanite et l'alternative SSDM

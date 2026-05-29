@@ -3,6 +3,8 @@ title: "FUNKY TETRIS : La musique"
 date: 2026-05-28 17:00:00 +0200
 categories: [MAO, Gaming]
 tags: [mao, gaming]
+image:
+  path: /assets/img/covers/banner_mao.png
 ---
 
 ## La musique de FUNKY TETRIS
