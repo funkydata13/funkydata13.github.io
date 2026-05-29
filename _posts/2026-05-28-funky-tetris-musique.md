@@ -1,5 +1,5 @@
 ---
-title: "FUNKY TETRIS : La musique"
+title: "🎶 FUNKY TETRIS : La musique"
 date: 2026-05-28 17:00:00 +0200
 categories: [MAO, Gaming]
 tags: [mao, gaming]
