@@ -10,7 +10,7 @@ Bienvenue sur ce workblog !
 
 ---
 
-## [29/05/2026] - Retours d'expérience : LLM Locaux (Gemma 4 28B vs Qwen 3 Coder 30B)
+## <a id="test-llm1"></a>[29/05/2026] - Retours d'expérience : LLM Locaux (Gemma 4 28B vs Qwen 3 Coder 30B)
 
 `#Dev` `#AI` `#Hardware` `#LocalLLM`
 
