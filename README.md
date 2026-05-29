@@ -10,11 +10,11 @@ Bienvenue sur ce workblog !
 
 ---
 
-## <a id="test-llm1"></a>[29/05/2026] - Retours d'expérience : LLM Locaux (Gemma 4 28B vs Qwen 3 Coder 30B)
+## <a id="test-llm1"></a>[29/05/2026] - Retours d'expérience : LLM Locaux (Gemma 4 26B vs Qwen 3 Coder 30B)
 
 `#Dev` `#AI` `#Hardware` `#LocalLLM`
 
-Après plusieurs jours/semaines en local sur **Gemma 4 (28B A4B)** et **Qwen 3 Coder (30B A3B)** voici mon verdict. On est face à deux modèles qui boxent dans la même catégorie mais qui se comportent assez différemment. 
+Après plusieurs jours/semaines en local sur **Gemma 4 (26B A4B)** et **Qwen 3 Coder (30B A3B)** voici mon verdict. On est face à deux modèles qui boxent dans la même catégorie mais qui se comportent assez différemment. 
 
 Voici un récap complet jusqu'à ma conclusion (sans langue de bois) sur l'utilité des LLM locaux pour du dév aujourd'hui. (selon moi)
 
@@ -349,7 +349,7 @@ Malgré ses avantages en termes de stockage et de streaming, le SSDM traîne plu
 ### 1. Test de LLM locaux
 `#Dev` `#AI`
 
-*   **Gemma 4 (28B A4B) :** En plein test actuellement.
+*   **Gemma 4 (26B A4B) :** En plein test actuellement.
 *   **Qwen 3 Coder (30B A3B) :** Comparaison à venir très prochainement.
 *   *Verdict temporaire :* Pour le moment, c'est très serré ! 🙂
 
