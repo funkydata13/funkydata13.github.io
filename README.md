@@ -54,7 +54,7 @@ Les deux modèles partagent un énorme défaut : une approche **"Brute-Force" / 
     *   *Comportement :* Il est imprévisible. Il peut être foudroyant de pertinence sur un truc complexe là où on ne l'attend pas, et se gaufrer lamentablement la minute d'après sur une broutille.
 *   **Qwen 3 Coder :** Beaucoup plus constant et mature. Il fait de grosses boulettes beaucoup moins souvent, mais il n'est jamais impressionnant non plus. C'est le modèle 30B prédictif de base par excellence.
 
-> 💡 **Le conseil :** Face à leurs grosses boulettes sur des algos simples, n'insistez pas. Ne vous lancez pas dans une cascade de corrections ("corrige ça", "ah non en fait remets comme avant"). Effacez simplement sa dernière réponse, repensez votre prompt initial et relancez proprement.
+> 💡 **Le conseil :** Face à leurs grosses boulettes (ou moins grosses d'ailleurs), n'insistez pas. Ne vous lancez pas dans une cascade de corrections ("corrige ça", "ah non en fait remets comme avant"). Effacez simplement sa dernière réponse, repensez votre prompt initial et relancez proprement.
 
 ---
 
@@ -86,14 +86,17 @@ Pour que ces retours d'expérience soient pertinents, il faut garder en tête qu
 
 Voici la fiche technique de la bécane :
 
-| Composant | Spécifications |
-| :--- | :--- |
-| **Processeur (CPU)** | AMD Ryzen 7 5700X |
-| **Mémoire (RAM)** | 32 Go DDR4 @ 3600 MHz |
-| **Carte Graphique (GPU)** | Nvidia RTX 5070 |
-| **Stockage (SSD)** | NVMe M.2 de 4 To |
+```text
+[ CONFIGURATION DE TEST ]
+-----------------------------------------------------------------
+• CPU     : AMD Ryzen 7 5700X
+• RAM     : 32 Go DDR4 @ 3600 MHz
+• GPU     : Nvidia RTX 5070
+• STORAGE : NVMe M.2 4 To
+-----------------------------------------------------------------
+```
 
-> ⚠️ **Constat d'allocation :** Sous LM Studio, quasi 100% des ressources mémoire étaient utilisées (RAM + VRAM). Si la configuration dispose d'une belle marge en computing pur, on se retrouve face au grand classique des LLM : le fameux bottleneck sur la vitesse et la bande passante mémoire.
+> ⚠️ **Constat d'allocation :** Sous LM Studio, quasi 100% des ressources mémoire étaient utilisées (RAM + VRAM). Si la configuration dispose d'une belle marge en computing pur, on se retrouve face au grand classique des LLM : le fameux bottleneck sur la bande passante mémoire.
 
 ## 🛑 Conclusion : Uninstall direct
 
