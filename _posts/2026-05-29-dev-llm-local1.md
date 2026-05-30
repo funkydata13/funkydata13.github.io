@@ -1,8 +1,8 @@
 ---
 title: "🤖 LLM Locaux : Gemma 4 vs Qwen3Coder"
 date: 2026-05-29 19:00:00 +0200
-categories: [Dev, AI, Tests]
-tags: [dev, ai, tests]
+categories: [Tech, IA]
+tags: [llm, local-ai, qwen, gemma, benchmark, hardware]
 image:
   path: /assets/img/covers/banner_ia.png
 ---

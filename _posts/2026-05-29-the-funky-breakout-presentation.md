@@ -1,8 +1,8 @@
 ---
 title: "🎮 The Funky Breakout - Présentation"
 date: 2026-05-29 16:00:00 +0200
-categories: [Dev, Gaming]
-tags: [dev, gaming]
+categories: [Gamedev]
+tags: [the-funky-breakout, godot-4, devlog]
 image:
   path: /assets/img/covers/banner_rgd.png
 ---
