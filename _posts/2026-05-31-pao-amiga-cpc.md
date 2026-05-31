@@ -9,7 +9,7 @@ image:
   alt: "Rendus PAO rétro sur Amstrad CPC et Amiga 500"
 ---
 
-Petite séquence nostalgie et archéologie logicielle aujourd'hui avec un coup de projecteur sur deux monuments du *retrocomputing*. On s'éloigne un instant des moteurs 3D modernes et du TAA pour revenir aux origines de la mise en page et du rendu sur tube cathodique (CRT). 
+Petite séquence nostalgie et archéologie logicielle aujourd'hui avec un coup de projecteur sur deux monuments du *retrocomputing*. On s'éloigne un instant des moteurs 3D modernes pour revenir sur tube cathodique. 
 
 Voici deux scènes de PAO (Publication Assistée par Ordinateur) capturées sur deux machines qui ont marqué l'histoire, chacune avec sa signature visuelle inimitable.
 
@@ -21,7 +21,7 @@ Voici deux scènes de PAO (Publication Assistée par Ordinateur) capturées sur 
 
 ![Rendu PAO - Amstrad CPC 464 et son écran vert GT65](/assets/img/pao/amstrad_cpc_464.png)
 
-Ici, pas de place pour la fioriture. Tout se joue sur la clarté du pixel, le contraste de la luminance et la gestion de la trame pour simuler les verts. Le moniteur phosphoré impose une ambiance "terminal de commande" ultra-brute où la rétine est mise à mal. C'est spartiate, mais c'était d'une efficacité redoutable pour l'époque.
+Ici, pas de place pour la fioriture. Tout se joue sur la clarté du pixel, le contraste de la luminance et la gestion de la trame pour simuler les verts. Le moniteur phosphoré impose une ambiance "terminal de commande" ultra-brute. C'est spartiate, mais c'était d'une efficacité redoutable pour l'époque.
 
 ---
 
