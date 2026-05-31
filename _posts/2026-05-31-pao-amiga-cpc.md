@@ -1,6 +1,6 @@
 ---
 title: "📟 Choc des générations : Deux rendus PAO sur CPC 464 et Amiga 500"
-date: 2026-05-31 10:00:00 +0200
+date: 2026-05-31 00:00:00 +0200
 categories: [News]
 tags: [pao, retrocomputing, amstrad, amiga, crt]
 description: "Quand la PAO s'invite sur le hardware des années 80. Retour visuel sur deux rendus iconiques : le vert monochrome du CPC 464 face aux couleurs éclatantes du moniteur 1084s de l'Amiga."
