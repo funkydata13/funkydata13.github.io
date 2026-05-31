@@ -17,22 +17,22 @@ Voici deux scènes de PAO (Publication Assistée par Ordinateur) capturées sur 
 
 ### 🟢 L'Amstrad CPC 464 et son moniteur GT65
 
-À ma gauche, le roi des foyers français du milieu des années 80. Sortir un rendu PAO sur un **CPC 464** équipé de son célèbre écran monochrome vert, c'est un exercice de style absolu. 
+À ma gauche, le roi des foyers français du milieu des années 80. Un **CPC 464** avec ses cassettes et équipé de son célèbre écran monochrome vert, c'est un exercice de style absolu. 😂🤣
 
 ![Rendu PAO - Amstrad CPC 464 et son écran vert GT65](/assets/img/pao/amstrad_cpc_464.png)
 
-Ici, pas de place pour la fioriture. Tout se joue sur la clarté du pixel, le contraste de la luminance et la gestion de la trame pour simuler les gris. Le moniteur phosphore vert impose une ambiance "terminal de commande" ultra-brute où la mise en page doit être chirurgicale pour rester lisible. C'est spartiate, mais d'une efficacité redoutable pour l'époque.
+Ici, pas de place pour la fioriture. Tout se joue sur la clarté du pixel, le contraste de la luminance et la gestion de la trame pour simuler les verts. Le moniteur phosphoré impose une ambiance "terminal de commande" ultra-brute où la rétine est mise à mal. C'est spartiate, mais c'était d'une efficacité redoutable pour l'époque.
 
 ---
 
 ### 🌈 L'Amiga 500 et le mythique Commodore 1084s
 
-À ma droite, la révolution multimédia de la fin de la décennie : l'**Amiga 500**. Changement radical d'univers lorsqu'on bascule sur son moniteur de prédilection, le légendaire **Commodore 1084s**.
+À ma droite, la révolution : l'**Amiga 500**. Changement radical d'univers avec les disquettes et sur son moniteur de prédilection, le légendaire **Commodore 1084s**.
 
 ![Rendu PAO - L'Amiga 500 et son fidèle et célèbre moniteur CRT, le 1084s](/assets/img/pao/amiga_500_1084s.png)
 
-Le bond technologique saute aux yeux. Le 1084s, avec son pitch serré et sa séparation parfaite des signaux (RGB), sublime le rendu de la PAO. On passe du monochrome à une interface colorée, fine, où le fenêtrage prend tout son sens. Les polices de caractères profitent du balayage CRT pour s'adoucir naturellement, offrant un confort visuel qui préfigurait les standards professionnels des années 90.
+Le bond technologique saute aux yeux. Le 1084s, avec son pitch serré et sa séparation parfaite des signaux (RGB) 😍. On passe du monochrome au coloré. Les polices de caractères profitent du balayage CRT pour s'adoucir naturellement, offrant un confort visuel qui préfigurait les standards des années 90.
 
 ---
 
-Deux philosophies, deux budgets, mais une même passion pour la bidouille sur des hardwares qui, malgré leurs limites, savaient tout faire. Vous étiez plutôt team phosphore vert ou explosion RGB ?
+Deux époques, beaucoup de souvenirs.
