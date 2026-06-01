@@ -35,17 +35,20 @@ Pour trier la jungle des acronymes (MSAA, FXAA, TAA...), il faut comprendre qu'i
 
 ### A. Les Spatiaux / Analytiques : Le calcul à la source
 Ces algorithmes s'attaquent directement à la géométrie de la scène 3D pendant que la carte graphique est en train de la dessiner.
+* **Les technologies liées :** SSAA (Supersampling), MSAA (Multisampling).
 * **Le principe :** Ils augmentent la précision du calcul là où ça coince (les bords des objets). Soit en calculant l'image entière dans une résolution gigantesque avant de la rétrécir, soit en multipliant les points de calcul uniquement sur les arêtes des polygones.
 * **Le compromis :** Une netteté et une fidélité mathématique absolues. Les textures restent nettes, aucun flou n'est ajouté. En revanche, le coût en ressources (VRAM et puissance brute) est colossal.
 
 ### B. Les Post-Processing : Le filtre 2D intelligent
 Ces techniques n'ont aucune idée de ce qu'est la 3D. Elles interviennent tout à la fin, une fois que l'image est totalement calculée et "plate".
+* **Les technologies liées :** FXAA, SMAA.
 * **Le principe :** Un script analyse l'image finale pixel par pixel, repère les contrastes violents (qui trahissent un effet d'escalier) et applique un flou ultra-sélectif pour lisser la transition.
 * **Le compromis :** Un coût en performance quasiment nul (gagné d'avance pour les petites configs). Le problème, c'est que l'algorithme se trompe parfois et floute des éléments qui devaient rester nets, comme du texte ou des textures fines.
 
 ### C. Les Temporels : La mémoire de l'image
 La méthode moderne. Elle introduit la notion de temps dans le calcul.
-* **Le principe :** Au lieu de n'analyser que l'image actuelle, l'algorithme compare l'image présente avec les images précédentes ($t-1, t-2$). En appliquant un léger décalage des pixels à chaque frame (le *jittering*), il recrée une image stable en fusionnant le passé et le présent.
+* **Les technologies liées :** TAA (Temporal AA), SMAA 2TX, DLAA, FSR Native AA, XeSS Native.
+* **Le principe :** Au lieu de n'analyser que l'image actuelle, l'algorithme compare l'image présente avec les images précédentes (l'image *t-1*, *t-2*, etc.). En appliquant un léger décalage des pixels à chaque frame (le *jittering*), il recrée une image stable en fusionnant le passé et le présent.
 * **Le compromis :** Élimination totale du scintillement en mouvement. Le revers de la médaille : un effet de traînée (*ghosting*) et un flou prononcé dès que la caméra pivote rapidement.
 
 ---
