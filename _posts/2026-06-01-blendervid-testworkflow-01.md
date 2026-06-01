@@ -28,9 +28,11 @@ Pousser les définitions dans Cycles augmente la charge de manière exponentiell
 ![1440p - 16.5 secondes](/assets/img/pao/wfia_01/blender_cycles_1440p_16.5sec_0.05nt_comp.png){: .normal .left w="350" }
 ![2160p - 41.3 secondes](/assets/img/pao/wfia_01/blender_cycles_2160p_41.31sec_0.05nt_comp.png){: .normal .right w="350" }
 
+<div style="clear: both;"></div>
+
 La vidéo test dure 9 secondes, pour un total de 270 frames.
 
----
+# ---
 
 ### 📊 Comparatif : Rendu Traditionnel (30 FPS) vs Workflow avec IA
 
