@@ -41,11 +41,7 @@ Pousser les définitions dans Cycles augmente la charge de manière exponentiell
 
 ---
 
-### 📊 Comparatif : Rendu Traditionnel (30 FPS) vs Workflow avec IA
-
-Le VFI (Video Frame Interpolation) permet de diviser le temps par 3 en effectuant le rendu à seulement 10 FPS sous Blender pour en sortir 30 FPS en post-production. Au lieu de calculer 270 frames, la machine n'en traite plus que **90**.
-
-### 📊 Comparatif : Rendu Traditionnel vs Workflow IA (Cible finale : 2160p @ 30 FPS)
+### 📊 Comparatif : Rendu Traditionnel vs Workflow IA
 
 Le VFI (Video Frame Interpolation) permet de diviser le temps par 3 en effectuant le rendu à seulement 10 FPS sous Blender pour en sortir 30 FPS en post-production. Au lieu de calculer 270 frames, la machine n'en traite plus que **90**.
 
@@ -77,4 +73,4 @@ Néanmoins, la grosse faiblesse de ce workflow reste l'upscaling. L'IA a beaucou
 
 Convaincant ? Si oui, je pousserais plus loin en essayant de déplacer le compositing et en utilisant les *Tensor Cores* (ou Tensor Flow) du VFI. Ce sera bien plus complexe niveau workflow et ça ne changera pas foncièrement la donne, mais ce pourra sûrement être un peu mieux.
 
-> **Note :** L'animation a été faite totalement à l'arrache, je souhaite juste valider le concept de Workflow avant de chercher à aller plus loin. J'ai déjà quelques avis mais tous les retours sont bons à prendre !
+> **Note :** L'animation a été faite totalement à l'arrache, le color-grading aussi, car j'en ai profité pou tester quelques petites choses en plus que je n'aborde pas ici. Je souhaite juste valider le concept de Workflow avant de chercher à aller plus loin. J'ai déjà quelques avis mais tous les retours sont bons à prendre !
