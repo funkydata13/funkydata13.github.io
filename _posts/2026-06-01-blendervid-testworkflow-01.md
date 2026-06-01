@@ -30,9 +30,16 @@ Pousser les définitions dans Cycles augmente la charge de manière exponentiell
 
 <div style="clear: both;"></div>
 
-La vidéo test dure 9 secondes, pour un total de 270 frames.
+| Résolution | Temps de rendu (par frame) |
+| :--- | :---: |
+| **720p** | 6,8 secondes |
+| **1080p** | 9,8 secondes |
+| **1440p** | 16,5 secondes |
+| **2160p (4K)** | 41,3 secondes |
 
-# ---
+**Infos Vidéo** : La vidéo finale dure 9 secondes, pour un total de 270 frames (dont 90 frames réelles).
+
+---
 
 ### 📊 Comparatif : Rendu Traditionnel (30 FPS) vs Workflow avec IA
 
