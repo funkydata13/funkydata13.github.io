@@ -48,7 +48,7 @@ Ces techniques n'ont aucune idée de ce qu'est la 3D. Elles interviennent tout �
 ### C. Les Temporels : La mémoire de l'image
 La méthode moderne. Elle introduit la notion de temps dans le calcul.
 * **Les technologies liées :** TAA (Temporal AA), SMAA 2TX, DLAA, FSR Native AA, XeSS Native.
-* **Le principe :** Au lieu de n'analyser que l'image actuelle, l'algorithme compare l'image présente avec les images précédentes (l'image *t-1*, *t-2*, etc.). En appliquant un léger décalage des pixels à chaque frame (le *jittering*), il recrée une image stable en fusionnant le passé et le présent.
+* **Le principe :** Au lieu de n'analyser que l'image actuelle, l'algorithme compare l'image présente avec les images précédentes. En appliquant un léger décalage des pixels à chaque frame (le *jittering*), il recrée une image stable en fusionnant le passé et le présent.
 * **Le compromis :** Élimination totale du scintillement en mouvement. Le revers de la médaille : un effet de traînée (*ghosting*) et un flou prononcé dès que la caméra pivote rapidement.
 
 ---
