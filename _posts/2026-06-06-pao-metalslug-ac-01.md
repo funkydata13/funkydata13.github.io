@@ -24,7 +24,7 @@ Le modèle a été entièrement pensé et dimensionné autour d'un écran cathod
 
 ### 🎬 Animation et mise en situation
 
-L'animation ci-dessous est un petit plaisir personnel pour mettre le modèle en situation. Le rendu reste brut et volontairement simple, sans post-production poussée.
+L'animation ci-dessous est un petit plaisir personnel pour mettre le modèle en situation. Le rendu reste brut et volontairement simple, sans post-production poussée. À regarder en 4K (réalisé sans IA), et pardon pour l'ignoble compression YouTube ! Le rendu est un peu plus propre dans cette résolution, mais ça reste une énorme boucherie sur ce genre de vidéos.
 
 {% include embed/youtube.html id="_JJLtd6yaDU" %}
 
