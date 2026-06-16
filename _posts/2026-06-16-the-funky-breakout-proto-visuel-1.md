@@ -19,7 +19,7 @@ Je me suis un peu laissé embarquer sur mon projet de Breakout (baptisé pour le
 
 ### 🛠️ Le choix d'Unity pour le prototype visuel
 
-La petite subtilité, c'est que j'ai monté ce prototype visuel sous **Unity**.
+La petite subtilité, c'est que j'ai monté ce prototype visuel sous **Unity**. Pour le moment on est dans un subtil mélange entre dynamisme et baking au niveau des assets.
 
 Toute la logique et le code du jeu sont actuellement développés sous **Godot**. Cependant, n'ayant jamais poussé Godot dans ses retranchements sur de la 2.5D avancée, je n'étais pas certain de sa capacité à afficher ce que j'avais en tête. Pour éviter de me retrouver bloqué en cours de route, j'ai préféré partir en terrain connu avec un moteur dont je maîtrise le pipeline graphique et sur lequel je ne partais pas de zéro.
 
