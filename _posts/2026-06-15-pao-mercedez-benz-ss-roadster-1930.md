@@ -6,7 +6,7 @@ tags: [blender, hard-surface, automotive, mercedes, vintage]
 description: "Rendus 3D et coup de projecteur sur la Mercedes-Benz SS Roadster de 1930, un monument d'audace esthétique et d'élégance mécanique."
 image:
   path: /assets/img/pao/mercedes_ss_roadster/Mercedes_Benz_SS_Roadster_05_HD.png
-  alt: "Mercedes-Benz SS Roadster 1930 - Rendu Blender"
+  alt: "Mercedes-Benz SS Roadster 1930 - Blender"
 ---
 
 Pour ce nouveau projet 3D, on change radicalement d'époque et de style. On quitte la science-fiction et les monstres de pixels pour se pencher sur une très vieille dame : la **Mercedes-Benz SS Roadster de 1930**. 
