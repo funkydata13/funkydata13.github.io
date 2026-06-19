@@ -33,13 +33,17 @@ Le modèle est plus léger en VRAM, et peut être modifié à la volée sans avo
 
 Voici les premiers clichés du chasseur impérial avec son tout nouveau revêtement dynamique. Ce sont deux clichés en "situation", contrairement à l'ISD qui est présenté dans l'espace profond.
 
-![TIE sur une plateforme de près](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01.png){: .normal .text-center w="700" }  
-[HD (1920)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01_HD.png) \| [QHD (2560)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01.png)
+![TIE sur une plateforme de près](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01.png){: .normal .text-center w="700" }
+
+[HD (1920)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01_HD.png) | [QHD (2560)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_01.png)
+{: .text-center }
 
 ---
 
-![TIE sur une plateforme de près](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03.png){: .normal .text-center w="700" }  
-[HD (1920)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03_HD.png) \| [QHD (2560)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03.png)
+![TIE sur une plateforme de près](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03.png){: .normal .text-center w="700" }
+
+[HD (1920)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03_HD.png) | [QHD (2560)](/assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03.png)
+{: .text-center }
 
 ---
 
