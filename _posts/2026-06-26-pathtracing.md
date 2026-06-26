@@ -79,23 +79,9 @@ Autant dire qu'en 1986, faire tourner ça en temps réel relevait de la science-
 
 Mais alors, comment s'est-on retrouvé avec ces termes techniques collés sur nos jeux d'action aujourd'hui ? C'est toute l'histoire du braquage sémantique opéré par le marketing.
 
-# Chapitre 3 : Les nouveaux sens (marketing)
+# Chapitre 3 : Les nouveaux sens
 
 Si tu as bien suivi les deux premiers chapitres, tu as compris que le Path Tracing est, techniquement, une sous-famille ultra-poussée du Ray Tracing. Sauf qu'entre la théorie des labos des années 80 et les rayons commercialisés dans nos cartes graphiques de nos jours, les départements marketing sont passés par là. Et ils ont joyeusement tordu le sens de ces mots pour en faire des arguments de vente.
-
-### Le "Ray Tracing" des jeux vidéo : Une illusion hybride
-
-Quand l'industrie du jeu vidéo s'est mise à crier au génie avec l'arrivée des premières cartes graphiques "RTX" à la fin des années 2010, elle n'a pas basculé dans le monde magique du rendu 100% physique. C'était impossible techniquement.
-
-Pour que les jeux restent fluides, les développeurs ont créé un modèle **hybride** :
-- 90% de l'image est calculée à l'ancienne, via la bonne vieille **rasterisation** (les polygones, la géométrie, la base des textures).
-- On injecte ensuite une pincée de **Ray Tracing classique** (façon Whitted) uniquement là où la rasterisation galère le plus : souvent juste pour des reflets nets sur les carrosseries, ou pour des ombres portées plus propres sous les pieds des personnages.
-
-Dans le langage courant du joueur d'aujourd'hui, le mot **"Ray Tracing"** ne désigne donc plus la technique globale. Il désigne une option graphique qui fait des reflets beaucoup nets. C'est le petit bonus cosmétique qu'on active dans les menus si on a une grosse carte, mais qui ne change pas grand chose dans l'écrasante majorité des cas.
-
-# Chapitre 3 : Les nouveaux sens (marketing)
-
-Si tu as bien suivi les deux premiers chapitres, tu as compris que le Path Tracing est, techniquement, une évolution directe du Ray Tracing. Sauf qu'entre la théorie des labos des années 80 et les cartes graphiques que l'on achète aujourd'hui, les départements marketing sont passés par là. Et ils ont joyeusement tordu le sens de ces mots.
 
 ### Le Ray Tracing : Le grand écart avec l'origine
 
