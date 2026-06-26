@@ -97,9 +97,9 @@ Pour vendre les générations de GPU supérieures, les constructeurs avaient bes
 
 Dans l'esprit collectif, le Path Tracing est devenu un synonyme marketing d'une "Illumination Globale (GI) parfaite". Le problème, c'est que beaucoup de titres qui se vantent d'intégrer du Path Tracing ne le font que de manière très partielle. Il n'est pas rare qu'un jeu l'utilise uniquement pour gérer l'éclairage indirect (la lumière qui ricoche) et les réflexions complexes, tout en laissant la rasterisation traditionnelle s'occuper de l'éclairage direct, des ombres principales ou de la diffusion atmosphérique.
 
-Il est aussi certain que beaucoup de titres, même estampillés "Full Path Tracing", ne gèrent ni la réfraction (le comportement de la lumière à travers du verre ou de l'eau) et encore moins les volumes (le brouillard, la fumée réactive). Dire qu'il est difficile de savoir de quoi on parle est un euphémisme. Par définition, le Path Tracing est un algorithme unifié. Il n'est pas censé cohabiter avec la rasterisation pour décider si un pixel est éclairé ou non. Actuellement, on décrète plus qu'on ne fait du Path Tracing qu'autre chose.
+Il est aussi certain que beaucoup de titres, même estampillés "Full Path Tracing", ne gèrent ni la réfraction (le comportement de la lumière à travers du verre ou de l'eau) et encore moins les volumes (le brouillard, la fumée réactive). Dire qu'il est difficile de savoir de quoi on parle est un euphémisme. Par définition, le Path Tracing est un algorithme unifié. Il n'est pas censé cohabiter avec la rasterisation pour décider si un pixel est éclairé ou non. Actuellement, on décrète plus qu'on ne fait réellement du Path Tracing.
 
-Le marketing a donc recréé une frontière artificielle et illisible car mouvante. Mais même quand un jeu pousse les curseurs à fond et utilise un Path Tracing beaucoup plus global (comme Cyberpunk 2077 en mode Overdrive), il triche quand même massivement (en faisant l'impasse sur les caustiques de réfraction, les vrais volumes, etc.) par rapport au monde des path-traceurs "académiques". C'est ce qui sépare le monde du jeu vidéo du rendu offline.
+Le marketing a donc recréé une frontière artificielle et illisible car mouvante. Mais même quand un jeu pousse les curseurs à fond et utilise un Path Tracing beaucoup plus global (comme Cyberpunk 2077 en mode Overdrive), il triche quand même massivement (en faisant l'impasse sur la réfraction, les caustiques, les volumes, etc.) par rapport au monde des path-traceurs "académiques". C'est ce qui sépare le monde du jeu vidéo du rendu dit "offline".
 
 # Chapitre 4 : Path-tracing de jeu vidéo vs Path-tracing offline
 
@@ -120,7 +120,7 @@ Comme on l'a vu au Chapitre 2, le Path Tracing est un algorithme stochastique (a
 
 Dans un logiciel comme Blender, pour une scène complexe en intérieur, un artiste va configurer son rendu à **1024, 2048 voire 4096 samples par pixel**. Chaque pixel de l'écran va ainsi voir défiler des milliers de rayons qui vont explorer la pièce dans les moindres recoins, capturer les micro-détails des ombres, traverser le verre (réfraction) et rebondir 12 fois de suite.
 
-Dans un jeu vidéo à 60 FPS, les calculs sont terrifiants. Si on voulait lancer ne serait-ce que 100 samples par pixel en 4K (environ 8 millions de pixels), le GPU devrait calculer près d'un milliard de rayons en 16 millisecondes. C'est impossible. En réalité, un jeu vidéo moderne en Path Tracing ne lance souvent qu'**un seul et unique rayon par pixel (1 spp)**, parfois deux.
+Dans un jeu vidéo à 60 FPS, ces calculs sont terrifiants. Si on voulait lancer ne serait-ce que 100 samples par pixel en 4K (environ 8 millions de pixels), le GPU devrait calculer près d'un milliard de rayons en 16 millisecondes. C'est impossible. En réalité, un jeu vidéo moderne en Path Tracing ne lance souvent qu'**un seul et unique rayon par pixel (1 spp)**, parfois deux.
 
 ### La solution du JV : L'accumulation temporelle et le pansement IA
 
@@ -144,13 +144,13 @@ Pour tenir le contrat des 16,6 ms malgré cette gymnastique temporelle, les mote
 
 # Chapitre 5 : Pourquoi ?
 
-Quand on voit l'usine à gaz technologique que représente le Path Tracing en temps réel, les sacrifices géométriques qu'il impose et la bouillie visuelle qu'il faut nettoyer à grands coups d'IA, on est en droit de se poser une question toute simple : pourquoi ? Pourquoi les constructeurs de GPU et les studios se sont-ils lancés dans cette course à la technologie ultra-gourmande et complexe, au point d'imposer des puces dédiées (les RT Cores) sur nos cartes graphiques ?
+Quand on voit l'usine à gaz technologique que représente le Path Tracing en temps réel, les sacrifices géométriques qu'il impose et la bouillie visuelle qu'il faut nettoyer à grands coups d'IA, on est en droit de se poser une question toute simple : pourquoi ? Pourquoi les constructeurs de GPU et les studios se sont-ils lancés dans cette course à la technologie ultra-gourmande et complexe, au point d'imposer des unités dédiées (les RT Cores) sur nos cartes graphiques ?
 
 La réponse ne tient pas seulement de l'amour de la science. C'est avant tout une histoire de business et de mur technologique.
 
 ### Le mur de la rasterisation et la stagnation visuelle
 
-Pendant près de vingt ans, le jeu vidéo a progressé par vagues massives. On passait de la SD à la HD, puis de la HD au 4K, tout en augmentant le nombre de polygones, d'effets et de lumières à l'écran. On se prenait régulièrement des "claques". Sauf que depuis quelques générations de cartes graphiques, on est arrivé au bout de ce modèle. Fini les claques. Aujourd'hui, le seul effet qu'on ressent en changeant de GPU, c'est de se dire que ça rame moins qu'avant ou qu'enfin, le jeu tourne correctement.
+Pendant près de vingt ans, le jeu vidéo a progressé par vagues massives. On passait de la SD à la HD, puis de la HD au 4K, tout en augmentant le nombre de polygones, d'effets et de lumières à l'écran. On se prenait régulièrement des "claques". Sauf que depuis quelques générations de cartes graphiques, on est arrivé au bout de ce modèle. Fini les claques. Aujourd'hui, le seul effet qu'on ressent en changeant de GPU, c'est de se dire que ça rame moins qu'avant ou qu'enfin, le jeu tourne correctement, ou qu'on va enfin pouvoir lâcher son 1080p.
 
 Le problème, c'est que la méthode traditionnelle (la rasterisation) a atteint ses limites industrielles. Bien qu'il reste encore des axes d'amélioration, la technologie est tellement mature que tout développement majeur supplémentaire coûterait une fortune sans pour autant offrir un véritable saut visuel. Ce n'est tout simplement plus viable économiquement parlant. Même développer ou maintenir son propre moteur de jeu maison est devenu extrêmement difficile. Pourtant, l'industrie a toujours besoin de sortir des jeux plus beaux pour vendre, et si possible moins chers à produire. Pour résoudre cette équation, elle s'en est largement remise à Epic Games et Nvidia, qui l'ont bien compris.
 
@@ -166,7 +166,7 @@ C'était aussi un excellent moyen de relancer une dynamique visuelle "Waouh" san
 
 # Chapitre 6 : Avenir (Le pansement de l'IA)
 
-Si l'on regarde froidement la situation actuelle, le Path Tracing en temps réel est une technologie bien trop lourde pour les GPU actuels et futurs, mais qu'on a poussée quand même pour toutes les raisons évoquées précédemment. On demande à des cartes graphiques de calculer des rayons de lumière de manière ultra-précise, pour ensuite se retrouver avec une bouillie numérique infâme que l'on doit camoufler à l'aide d'algorithmes temporels bancals.
+Si l'on regarde froidement la situation actuelle, le Path Tracing en temps réel est une technologie bien trop lourde pour les GPU actuels et futurs, mais qu'on a poussée quand même pour toutes les raisons évoquées précédemment. On demande à des cartes graphiques de calculer des rayons de lumière de manière ultra-précise, pour ensuite se retrouver avec une bouillie numérique infâme que l'on doit camoufler à l'aide d'algorithmes temporels ingénieux mais bancals.
 
 En tout cas, l'avenir de cette technologie ne passera pas par une hausse miraculeuse de la puissance brute des GPU : le gap est bien trop gigantesque. Les lois de la physique et du silicium ont leurs limites. L'avenir du Path Tracing appartient presque exclusivement à l'accumulation temporelle poussée à l'extrême et à la reconstruction neuronale par l'Intelligence Artificielle.
 
@@ -184,6 +184,6 @@ Le calcul de rayons physiques purs (le Path Tracing académique) va rester l'apa
 
 On se dirige vers un futur où le moteur graphique ne calculera plus vraiment la lumière, mais donnera simplement une "intention" géométrique et lumineuse à une IA. C'est elle qui se chargera de générer le rendu visuel final, fluide, net et sans bruit, à 120 ou 240 FPS.
 
-Mais si on se réfère aux récentes annonces autour du DLSS 5 qui réinterprète toute l'image, éclairage compris, quel est vraiment l'avenir du Path Tracing dans les jeux ? Est-ce bien la peine de tenter de calculer un éclairage à coup de Path Tracing hyper lourd pour seulement s'en servir de base à un filtre IA qui va tout réinterpréter à sa sauce de toute façon ? On est en droit de se demander si cette technologie a un réel avenir, considérant le virage "full IA" pris par Nvidia, qui est le constructeur guidant le marché.
+Mais si on se réfère aux récentes annonces autour du DLSS 5 qui réinterprète toute l'image, éclairage compris, quel est vraiment l'avenir du Path Tracing dans les jeux ? Est-ce bien la peine de tenter de calculer un éclairage à coup de Path Tracing hyper lourd pour seulement s'en servir de base pour un filtre IA qui va tout réinterpréter à sa sauce de toute façon ? On est en droit de se demander si cette technologie a un réel avenir, considérant le virage "full IA" pris par Nvidia, qui est le constructeur guidant le marché.
 
 En tout cas, le business des constructeurs de GPU a réussi son pari : en imposant une technologie nativement trop lourde pour nos machines, ils ont rendu l'usage de l'IA totalement indispensable. La course aux gigahertz et au nombre de cœurs est bel et bien terminée ; la guerre s'est déplacée sur le terrain des algorithmes de reconstruction, des upscalers et des technologies propriétaires. Et pour le joueur, la fameuse "claque" est surtout maintenant dans le portefeuille, plus que sur son vieil écran qu'il garde précieusement pour ne pas que ça rame trop.
