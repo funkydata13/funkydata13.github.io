@@ -1,5 +1,5 @@
 ---
-title: "Ray Tracing et Path Tracing dans les jeux"
+title: "⚙️ Ray Tracing et Path Tracing dans les jeux"
 date: 2026-06-26 13:00:00 +0200
 categories: [Technique, 3D]
 tags: [ray-tracing, path-tracing, gpu, ia]
