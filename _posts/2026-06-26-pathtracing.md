@@ -9,7 +9,7 @@ image:
   alt: "Ray Tracing et Path Tracing"
 ---
 
-# Chapitre 1 : Le Ray Tracing (Les Fondations)
+## 1. Le Ray Tracing (Les Fondations)
 
 Aujourd'hui, le "Ray Tracing" est sur toutes les boîtes de consoles et toutes les fiches techniques de cartes graphiques. Mais avant d'être un argument de vente, c'est une technique de calcul optique qui n'est pas toute jeune.
 
@@ -46,7 +46,7 @@ Mais le plus important à retenir ici, c'est que le Ray Tracing "classique" (cel
 
 Et c'est exactement là que le Path Tracing va entrer en scène.
 
-# Chapitre 2 : Le Path Tracing (L'Évolution)
+## 2. Le Path Tracing (L'Évolution)
 
 Si le Ray Tracing classique a posé les bases en calculant la lumière directe, il laissait un énorme problème de côté : dans la vraie vie, la lumière ne s'arrête pas après avoir tapé un mur. Elle ricoche, s'atténue, se colore et éclaire indirectement tout ce qui l'entoure. C'est ce qu'on appelle l'illumination globale.
 
@@ -79,7 +79,7 @@ Autant dire qu'en 1986, faire tourner ça en temps réel relevait de la science-
 
 Mais alors, comment s'est-on retrouvé avec ces termes techniques collés sur nos jeux d'action aujourd'hui ? C'est toute l'histoire du braquage sémantique opéré par le marketing.
 
-# Chapitre 3 : Les nouveaux sens
+## 3. Les nouveaux sens
 
 Si tu as bien suivi les deux premiers chapitres, tu as compris que le Path Tracing est, techniquement, une sous-famille ultra-poussée du Ray Tracing. Sauf qu'entre la théorie des labos des années 80 et les rayons commercialisés dans nos cartes graphiques de nos jours, les départements marketing sont passés par là. Et ils ont joyeusement tordu le sens de ces mots pour en faire des arguments de vente.
 
@@ -101,7 +101,7 @@ Il est aussi certain que beaucoup de titres, même estampillés "Full Path Traci
 
 Le marketing a donc recréé une frontière artificielle et illisible car mouvante. Mais même quand un jeu pousse les curseurs à fond et utilise un Path Tracing beaucoup plus global (comme Cyberpunk 2077 en mode Overdrive), il triche quand même massivement (en faisant l'impasse sur la réfraction, les caustiques, les volumes, etc.) par rapport au monde des path-traceurs "académiques". C'est ce qui sépare le monde du jeu vidéo du rendu dit "offline".
 
-# Chapitre 4 : Path-tracing de jeu vidéo vs Path-tracing offline
+## 4. Path-tracing de jeu vidéo vs Path-tracing offline
 
 Maintenant que le tri est fait entre la théorie et le marketing, posons la question qui fâche : pourquoi un jeu vidéo en "Path Tracing" n'approchera-t-il jamais la fidélité visuelle d'un moteur de rendu offline comme Blender Cycles, V-Ray ou Arnold ?
 
@@ -142,7 +142,7 @@ Pour tenir le contrat des 16,6 ms malgré cette gymnastique temporelle, les mote
 2. **L'impasse sur la physique complexe :** On oublie les caustiques (les reflets de lumière à travers du verre ou de l'eau) et la vraie diffusion de la lumière dans les volumes denses (brouillard, fumée).
 3. **Une géométrie simplifiée :** Les rayons du jeu vidéo ne testent pas la vraie géométrie 3D complexe, mais une structure simplifiée et invisible (la BVH) pour accélérer les calculs, quitte à générer de légères approximations.
 
-# Chapitre 5 : Pourquoi ?
+## 5. Pourquoi ?
 
 Quand on voit l'usine à gaz technologique que représente le Path Tracing en temps réel, les sacrifices géométriques qu'il impose et la bouillie visuelle qu'il faut nettoyer à grands coups d'IA, on est en droit de se poser une question toute simple : pourquoi ? Pourquoi les constructeurs de GPU et les studios se sont-ils lancés dans cette course à la technologie ultra-gourmande et complexe, au point d'imposer des unités dédiées (les RT Cores) sur nos cartes graphiques ?
 
@@ -164,7 +164,7 @@ En intégrant des "RT Cores" (des unités de calcul matériellement dédiées à
 
 C'était aussi un excellent moyen de relancer une dynamique visuelle "Waouh" sans faire exploser les coûts de développement pour les studios, tout en justifiant des tarifs de cartes toujours plus élevés. Quitte à rendre les jeux tellement lourds au passage qu'ils devenaient injouables sans une autre technologie miracle : l'intelligence artificielle.
 
-# Chapitre 6 : Avenir (Le pansement de l'IA)
+## 6. Avenir
 
 Si l'on regarde froidement la situation actuelle, le Path Tracing en temps réel est une technologie bien trop lourde pour les GPU actuels et futurs, mais qu'on a poussée quand même pour toutes les raisons évoquées précédemment. On demande à des cartes graphiques de calculer des rayons de lumière de manière ultra-précise, pour ensuite se retrouver avec une bouillie numérique infâme que l'on doit camoufler à l'aide d'algorithmes temporels ingénieux mais bancals.
 
