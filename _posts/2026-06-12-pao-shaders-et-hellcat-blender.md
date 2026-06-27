@@ -1,8 +1,8 @@
 ---
 title: "💧 Modernisation de shader : le shader qui mouille !"
 date: 2026-06-11 20:00:00 +0200
-categories: [3D, Blender]
-tags: [blender, shader]
+categories: [PAO]
+tags: [blender, cycles, rendering, shaders]
 description: "Shader eau."
 image:
   path: /assets/img/pao/Dodge_Challenger_STR_Hellcat_Night_Shot_HD.png

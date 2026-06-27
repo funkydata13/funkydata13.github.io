@@ -1,8 +1,8 @@
 ---
 title: "⚙️ TAA : L'anti-aliasing devenu le cache-misère de l'industrie"
 date: 2026-05-30 14:00:00 +0200
-categories: [Tech, Graphisme]
-tags: [computer-graphics, anti-aliasing, unreal-engine, optimisation]
+categories: [Tech]
+tags: [3d-engine, unreal-engine, computer-graphics, anti-aliasing]
 description: "Analyse technique sans concession du Temporal Anti-Aliasing (TAA)."
 image:
   path: /assets/img/covers/taa.png

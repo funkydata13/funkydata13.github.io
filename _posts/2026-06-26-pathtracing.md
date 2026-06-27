@@ -1,11 +1,11 @@
 ---
 title: "⚙️ Ray Tracing et Path Tracing dans les jeux vidéo"
 date: 2026-06-26 13:00:00 +0200
-categories: [Technique, 3D]
-tags: [ray-tracing, path-tracing, gpu, ia]
+categories: [Tech]
+tags: [3d-engine, render-engine, computer-graphics, ray-tracing, path-tracing, ia]
 description: "Analyse technique et historique de l'évolution du Ray Tracing vers le Path Tracing dans le jeu vidéo, face aux réalités industrielles et à l'avènement du rendu neuronal."
 image:
-  path: /assets/img/covers/banner_tech.png
+  path: /assets/img/covers/banner_tech_pt_rt.png
   alt: "Ray Tracing et Path Tracing"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "🖥️ Unreal Engine 5 : Tout savoir sur Nanite"
 date: 2026-05-27 20:00:00 +0200
-categories: [Tech, Graphisme]
-tags: [computer-graphics, nanite, unreal-engine, optimisation, geometry]
+categories: [Tech]
+tags: [3d-engine, unreal-engine, computer-graphics, geometry, nanite]
 image:
   path: /assets/img/covers/banner_tech.png
 ---

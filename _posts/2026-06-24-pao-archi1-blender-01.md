@@ -1,8 +1,8 @@
 ---
 title: "📐 Architecture et Shading : Deux clichés pour deux tests"
 date: 2026-06-24 20:00:00 +0200
-categories: [3D, Architecture]
-tags: [blender, architecture, rendering]
+categories: [PAO]
+tags: [blender, cycles, rendering, architecture]
 description: "Présentation rapide de deux scènes d'architecture pour éprouver mon workflow modernisé et tester des shaders."
 image:
   path: /assets/img/pao/Street_Wet_Fog_LD.png

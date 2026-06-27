@@ -1,8 +1,8 @@
 ---
 title: "🚀 Fin d'un chantier de 20 ans : Mon Imperial Star Destroyer sous Blender"
 date: 2026-06-09 20:00:00 +0200
-categories: [3D, Blender]
-tags: [blender, hard-surface, star-wars, geometry-nodes, kitbash]
+categories: [PAO]
+tags: [blender, cycles, rendering, star-wars, geometry-nodes, kitbash]
 description: "Après presque deux décennies d'allers-retours, de 3ds Max à Blender, le Destroyer Stellaire de 1,6 km est enfin prêt pour la production."
 image:
   path: /assets/img/pao/isd/Imperial_Star_Destroyer_02_HD.png

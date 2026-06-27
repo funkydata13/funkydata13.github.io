@@ -1,8 +1,8 @@
 ---
 title: "⚙️ Les Anti-Aliasing : Historique et Descriptions"
 date: 2026-06-01 14:00:00 +0200
-categories: [Tech, Graphisme]
-tags: [computer-graphics, anti-aliasing, optimisation]
+categories: [Tech]
+tags: [3d-engine, computer-graphics, anti-aliasing]
 description: "Historique et descriptions des différents anti-aliasing marquants à travers l'histoire jusqu'à l'avènement des moteurs modernes dépendants du TAA et de l'IA."
 image:
   path: /assets/img/covers/dossier_aa.png

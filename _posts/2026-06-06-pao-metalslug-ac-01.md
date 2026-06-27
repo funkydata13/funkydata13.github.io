@@ -1,8 +1,8 @@
 ---
 title: "🕹️ Projet Borne d'Arcade Metal Slug : Modélisation & Animation"
 date: 2026-06-06 22:00:00 +0200
-categories: [3D, Blender]
-tags: [blender, arcade, metal-slug, hard-surface, animation]
+categories: [PAO]
+tags: [blender, cycles, rendering, video, arcade, metal-slug]
 description: "Modélisation 'from scratch' et animation d'une borne d'arcade thématique Metal Slug autour d'un CRT 32\", avant sa future construction réelle."
 image:
   path: /assets/img/covers/metal_slug_ac_image.png

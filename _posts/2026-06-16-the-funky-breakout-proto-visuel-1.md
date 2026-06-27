@@ -1,8 +1,8 @@
 ---
 title: "🎮 The Funky Breakout : Expérimentation visuelle et dilemme de moteur"
 date: 2026-06-16 16:30:00 +0200
-categories: [Gamedev, Godot]
-tags: [gamedev, breakout, unity, godot]
+categories: [Gamedev]
+tags: [the-funky-breakout, godot, unity, devlog]
 description: "Test d'un proto en 2.5D. Entre la logique de jeu sur Godot et un rendu visuel sur Unity, l'heure est à la réflexion."
 image:
   path: /assets/img/covers/funky_breakout_visualdemo_1.png

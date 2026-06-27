@@ -1,8 +1,8 @@
 ---
 title: "🚀 Dans la foulée du Destroyer : Modernisation du TIE Fighter sous Blender"
 date: 2026-06-19 18:00:00 +0200
-categories: [3D, Blender]
-tags: [blender, hard-surface, star-wars, geometry-nodes, procedural]
+categories: [PAO]
+tags: [blender, cycles, rendering, star-wars]
 description: "Après le chantier titanesque de l'ISD, place à la mise à niveau du TIE Fighter. Objectif : éradiquer l'ancien workflow de baking au profit du procédural."
 image:
   path: /assets/img/pao/tie_fighter/TIE_Fighter_in_a_Canyon_Base_03.png

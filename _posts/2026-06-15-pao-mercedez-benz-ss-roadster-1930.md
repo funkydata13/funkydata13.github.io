@@ -1,8 +1,8 @@
 ---
 title: "🏎️ Mercedes-Benz SS Roadster (1930) : L'élégance folle des années 30"
 date: 2026-06-15 22:00:00 +0200
-categories: [3D, Blender]
-tags: [blender, hard-surface, automotive, mercedes, vintage]
+categories: [PAO]
+tags: [blender, cycles, rendering, automotive, mercedes]
 description: "Rendus 3D et coup de projecteur sur la Mercedes-Benz SS Roadster de 1930, un monument d'audace esthétique et d'élégance mécanique."
 image:
   path: /assets/img/pao/mercedes_ss_roadster/Mercedes_Benz_SS_Roadster_05_HD.png

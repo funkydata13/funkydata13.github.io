@@ -2,7 +2,7 @@
 title: "📟 Test Workflow PAO pour des vidéos"
 date: 2026-06-01 17:00:00 +0200
 categories: [News]
-tags: [pao, blender, ia, video]
+tags: [blender, cycles, rendering, ia, video]
 description: "Test d'un pipeline de rendu de vidéos avec Blender et de l'IA."
 image:
   path: /assets/img/pao/porsche911turbo_1.png
