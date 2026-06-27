@@ -24,7 +24,7 @@ Plusieurs méthodes permettent de traiter ce problème. Ici, je vais aborder le 
 
 Le TAA cherche à simuler un rendu à haute résolution pour gommer l'aliasing, mais de manière temporelle. Pour ce faire, le moteur applique un micro-décalage (un *jittering* à l'échelle du sous-pixel) à la frame actuelle. L'algorithme va ensuite chercher dans l'historique du rendu — qui se limitait à 7 ou 8 frames à l'époque, mais qui s'étend aujourd'hui bien au-delà de 16 ou 32 frames (!) pour tenter de lisser le bruit des moteurs modernes — et mélanger ces images pour générer la frame finale antialiasée.
 
-> Lorsque vous jouez avec le TAA activé, l'image fixe que vous voyez à l'écran est en réalité une combinaison hybride des 8-16-32-$N$ frames précédentes.
+> Lorsque vous jouez avec le TAA activé, l'image fixe que vous voyez à l'écran est en réalité une combinaison hybride des 8-16-32-N frames précédentes.
 
 Cette technique a un avantage massif : **elle fonctionne quelle que soit la résolution pour un coût en performance dérisoire**, tout en éradiquant l'aliasing géométrique et le scintillement des textures.
 
@@ -32,7 +32,7 @@ Cette technique a un avantage massif : **elle fonctionne quelle que soit la rés
 
 Le TAA ne crée pas de la vraie information visuelle. Il ne fait pas comme le SSAA (Supersampling) ou le MSAA (Multisampling) qui échantillonnent plus lourdement la scène pour obtenir des données réelles. Le TAA recycle de l'information passée par accumulation. 
 
-Le résultat est sans appel : si l'aliasing est effectivement supprimé, **énormément de détails passent aussi à la trappe**. L'image devient floue car elle est une accumulation de l'image native actuelle et des $N$ frames précédentes.
+Le résultat est sans appel : si l'aliasing est effectivement supprimé, **énormément de détails passent aussi à la trappe**. L'image devient floue car elle est une accumulation de l'image native actuelle et des N frames précédentes.
 
 C'est d'ailleurs le grand biais des comparatifs de médias majeurs ou généralistes : ils analysent les jeux via des captures fixes ou des panoramas lents. À ce moment-là, l'accumulation temporelle fait illusion. Mais dès que le joueur prend la manette, le gameplay actif détruit le rendu.
 
