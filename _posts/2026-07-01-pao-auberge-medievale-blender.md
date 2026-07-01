@@ -17,13 +17,13 @@ Voici le menu du jour.
 
 ### 🧱 Low-Poly + peinture UV, retour aux sources
 
-Toute la scène est en low-poly. Pas de sculpt ou de détail géométrique brut : tout repose sur le bon vieux **modificateur de Subdivision**. Le vrai exercice ici, c'était de retravailler la peinture de texture directement sur ces maillages légers, avec des UV proprement dépliés pour que la subdivision ne vienne pas tout casser au niveau des jointures et des angles. Simplement voir si c'était possible car la subdivision subdivise aussi les UVs ce qui peut occasionner nombre de problèmes visuels qu'il faut anticiper.
+Toute la scène est en low-poly. Pas de sculpt ou de détail géométrique brut : tout repose sur le bon vieux **modificateur de Subdivision**. Le vrai exercice ici, c'était de retravailler la peinture de texture directement sur ces maillages légers, avec des UV proprement dépliés pour que la subdivision ne vienne pas tout casser au niveau des jointures et des angles. L'idée était simplement de voir si c'était possible, car la subdivision subdivise aussi les UVs, ce qui peut occasionner pas mal de problèmes visuels qu'il faut anticiper.
 
 ---
 
 ### 🖼️ Upscale x2 via chaiNNer
 
-Considérant la quantité d'objets la définition des textures n'était pas très grande afin de rentrer dans 16 Go de VRAM. Mais pour ce test (et surtout à cause du point suivant) j'ai laché la bride sur la résolution. Je suis passé par **chaiNNer** pour un upscale IA x2.
+Considérant la quantité d'objets, la définition des textures n'était pas très grande afin de rentrer dans 16 Go de VRAM. Mais pour ce test (et surtout à cause du point suivant), j'ai lâché la bride sur la résolution. Je suis passé par **chaiNNer** pour un upscale IA x2.
 
 Le résultat est propre sur ce type de textures : contrairement à l'upscale vidéo (galère absolue, voir mon article sur le Charger '69), l'IA s'en sort beaucoup mieux sur une texture statique, fixe, sans mouvement à reconstruire. Les détails de peinture restent cohérents, pas de bavure ni d'artefact flagrant.
 
@@ -41,7 +41,7 @@ Le principe est simple sur le papier : au lieu de charger la totalité de chaque
 * **Les niveaux de LOD (mipmaps) :** chaque texture existe en plusieurs résolutions empilées (comme une pyramide), de la pleine définition jusqu'à des versions minuscules.
 * **Le streaming à la demande :** le moteur ne charge en VRAM que les tuiles et le niveau de LOD réellement nécessaires selon la distance caméra, l'angle et la taille à l'écran. Un pot en arrière-plan flou n'a aucune raison de bouffer sa texture en 4K native.
 
-Résultat : la scène qui ne passait pas sur 24 Go tourne désormais avec **environ 8 Go de VRAM**. C'est une bascule complète de philosophie, dans le même esprit que ce qui se fait dans le jeux vidéos avec le .DDS mais appliqué et adapté à la PAO. Ça change clairement la donne pour ce genre de scène chargée en assets uniques.
+Résultat : la scène qui ne passait pas sur 24 Go tourne désormais avec **environ 8 Go de VRAM**. C'est une bascule complète de philosophie, dans le même esprit que ce qui se fait dans les jeux vidéo avec le .DDS, mais appliqué et adapté à la PAO. Ça change clairement la donne pour ce genre de scène chargée en assets uniques.
 
 ---
 
@@ -72,6 +72,13 @@ Le combo lumière faible + multi-sources + volumes est probablement l'un des pir
 ---
 
 ### 📸 Galerie des rendus
+
+![Auberge médiévale - vue 1](/assets/img/pao/medieval_inn/Medieval_Inn_002A_HD.png){: .normal .text-center w="700" }
+
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_002A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_002A.png)
+{: .text-center }
+
+---
 
 ![Auberge médiévale - vue 2](/assets/img/pao/medieval_inn/Medieval_Inn_003A_HD.png){: .normal .text-center w="700" }
 
