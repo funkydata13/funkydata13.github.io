@@ -1,11 +1,11 @@
 ---
-title: "🍺 Auberge médiévale : Low-Poly, Texture Caching et le nouveau super-nœud"
+title: "🍺 [MAJ] Auberge médiévale : Low-Poly, Texture Caching et le nouveau super-nœud"
 date: 2026-07-01 18:00:00 +0200
 categories: [PAO]
 tags: [blender, cycles, rendering, ia, upscale]
 description: "Une scène d'auberge médiévale/fantasy pour crash-tester plusieurs briques techniques d'un coup : peinture UV sur low-poly, upscale IA via chaiNNer, le nouveau Texture Caching de Blender, l'instancing de collections et un éclairage volumétrique bien piégeux."
 image:
-  path: /assets/img/pao/medieval_inn/Medieval_Inn_002A_HD.png
+  path: /assets/img/pao/medieval_inn/Medieval_Inn_002D_HD.png
   alt: "Auberge médiévale - Rendu Blender"
 ---
 
@@ -73,46 +73,65 @@ Le combo lumière faible + multi-sources + volumes est probablement l'un des pir
 
 ### 📸 Galerie des rendus
 
-![Auberge médiévale - vue 1](/assets/img/pao/medieval_inn/Medieval_Inn_002A_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 1](/assets/img/pao/medieval_inn/Medieval_Inn_002D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_002A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_002A.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_002D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_002D.png)
 {: .text-center }
 
 ---
 
-![Auberge médiévale - vue 2](/assets/img/pao/medieval_inn/Medieval_Inn_003A_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 2](/assets/img/pao/medieval_inn/Medieval_Inn_003D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_003A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_003A.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_003D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_003D.png)
 {: .text-center }
 
 ---
 
-![Auberge médiévale - vue 3](/assets/img/pao/medieval_inn/Medieval_Inn_004A_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 3](/assets/img/pao/medieval_inn/Medieval_Inn_004D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_004A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_004A.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_004D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_004D.png)
 {: .text-center }
 
 ---
 
-![Auberge médiévale - vue 4](/assets/img/pao/medieval_inn/Medieval_Inn_005A_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 4](/assets/img/pao/medieval_inn/Medieval_Inn_005D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_005A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_005A.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_005D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_005D.png)
 {: .text-center }
 
 ---
 
-![Auberge médiévale - vue 5](/assets/img/pao/medieval_inn/Medieval_Inn_006A_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 5](/assets/img/pao/medieval_inn/Medieval_Inn_006D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_006A_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_006A.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_006D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_006D.png)
 {: .text-center }
 
 ---
 
-![Auberge médiévale - vue 6](/assets/img/pao/medieval_inn/Medieval_Inn_009_HD.png){: .normal .text-center w="700" }
+![Auberge médiévale - vue 6](/assets/img/pao/medieval_inn/Medieval_Inn_009D_HD.png){: .normal .text-center w="700" }
 
-[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_009_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_009.png)
+[HD (1920)](/assets/img/pao/medieval_inn/Medieval_Inn_009D_HD.png) | [QHD (2560)](/assets/img/pao/medieval_inn/Medieval_Inn_009D.png)
 {: .text-center }
 
 ---
 
 Beaucoup de cases cochées d'un coup sur cette scène, mais c'était clairement le but : la faire suffisamment dense et complexe pour mettre tout mon pipeline actuel sous pression en même temps. Le Texture Caching à lui seul justifie l'article, ça ouvre clairement la porte à des scènes bien plus chargées sans avoir à sacrifier la VRAM.
+
+---
+
+## 🔄 Mise à jour — 03/07/2026
+
+Petite passe de polish sur la taverne ! J'ai entièrement remplacé les anciens rendus de la galerie par de nouvelles versions bien plus propres. Au menu des réjouissances :
+
+* **Agencement & Meshes :** Revue globale de la composition pour corriger quelques coquilles. J'en ai profité pour retoucher pas mal de maillages afin d'apporter un peu plus de variations visuelles sur les détails.
+* **Shaders & Matériaux :** Divers ajustements sur les textures et correction de petites erreurs qui traînaient dans mes nœuds de shaders.
+* **Lighting & Compositing :** L'éclairage a été retouché par-ci par-là pour mieux guider l'œil. Côté post-prod, j'ai enfin branché la version finale de mon arbre de compositing.
+* **Le cas AgX :** Passage sur le View Transform *AgX*. J'ai tenté de dompter et de corriger cette fameuse teinte saumon/rose hyper caractéristique (et franchement pas très heureuse) que cette colorimétrie applique sur les zones de fortes sur-expositions chaudes (les bougies, le feu, etc.).
+
+---
+
+### 🧠 Petit point sur le Texture Cache (toujours en bêta)
+
+Dans la version actuelle, Blender m'indique une consommation d'environ **8 à 9 Go de VRAM** pour le *Texture Cache*. Pourtant, dans les faits, toute la VRAM se retrouve utilisée quand même. 
+
+Reste à savoir s'il s'agit d'un comportement normal — type mécanisme de pré-allocation globale ou cache agressif — ou d'un empilement graduel des LODs des textures jusqu'à saturation complète de la mémoire. On décryptera tout ça plus au calme lors de la sortie de la version 5.2 !
