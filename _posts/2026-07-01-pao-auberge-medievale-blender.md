@@ -1,7 +1,6 @@
 ---
-title: "🍺 Auberge médiévale -MAJ- : Low-Poly, Texture Caching et le nouveau super-nœud"
+title: "🍺 [MAJ] Auberge médiévale : Low-Poly, Texture Caching et le nouveau super-nœud"
 date: 2026-07-01 18:00:00 +0200
-last_modified_at: 2026-07-03 16:00:00 +0200
 categories: [PAO]
 tags: [blender, cycles, rendering, ia, upscale]
 description: "Une scène d'auberge médiévale/fantasy pour crash-tester plusieurs briques techniques d'un coup : peinture UV sur low-poly, upscale IA via chaiNNer, le nouveau Texture Caching de Blender, l'instancing de collections et un éclairage volumétrique bien piégeux."
